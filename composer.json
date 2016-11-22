@@ -1,0 +1,28 @@
+{
+  "name": "postaplus/postaplus-shipping",
+  "description": "PostaPlus Shipping for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Roshan Ruzaik",
+      "email": "magepsycho@gmail.com",
+      "homepage": "http://www.postaplus.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0.4"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PostaPlus\\PostaPlusShipping\\": ""
+    }
+  }
+}
